@@ -12,8 +12,7 @@ def input_to_index(usr_input)
   index       = usr_input - 1
 end
 
-board_array   = [" "," "," "," "," "," "," "," "," "]
 def move(board_array, usr_index, usr_character="X")
   board_array[usr_index] = usr_character
-  display_board(board_array)  
+  display_board(board_array)
 end
