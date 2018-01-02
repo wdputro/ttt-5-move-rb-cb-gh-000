@@ -10,6 +10,7 @@ end
 def input_to_index(usr_input)
   usr_input   = usr_input.to_i
   index       = usr_input - 1
+  return index
 end
 
 def move(board_array, usr_index, usr_character="X")
