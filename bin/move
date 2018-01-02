@@ -3,6 +3,7 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
-
+puts "Welcome to Tic Tac Toe!"
+board   = [" "," "," "," "," "," "," "," "," "]
 usr_input   = gets.strip()
 input_to_index(usr_input)
